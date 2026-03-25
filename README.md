@@ -6,146 +6,109 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+PROCTOR.AI+%F0%9F%9A%80;Founder+%26+Sole+Engineer+%E2%80%94+shipped+to+production;CS+%40+BITS+Pilani+%C3%97+Scaler+School+of+Tech;I+build+things+that+actually+ship.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=650&lines=CS+%40+BITS+Pilani+%C3%97+Scaler+School+of+Tech;TypeScript+%C2%B7+Python+%C2%B7+Go+%C2%B7+C%2B%2B+%C2%B7+Java;I+build+things+that+actually+ship.;404+chill+not+found.)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-<img align="right" width="38%" src="https://github-readme-stats.vercel.app/api?username=u7k4rs6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github"/>
-
-### `$ whoami`
+<img align="right" width="42%" src="https://github-readme-stats.vercel.app/api?username=u7k4rs6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&bg_color=0d1117"/>
 
 ```bash
-Name     : Utkarsh Bahuguna
-Role     : Founder-Engineer
-Building : PROCTOR.AI
-School   : BITS Pilani (CS) × Scaler School of Tech
-Stack    : TypeScript · Python · Go · Next.js · Supabase
-Status   : 🟢 Actively shipping
-Contact  : utkarshbahuguna10@gmail.com
+$ whoami
+───────────────────────────────
+  Utkarsh Bahuguna
+  BITS Pilani — B.E. Computer Science
+  Scaler School of Technology
+───────────────────────────────
+  Focus   → Systems · DSA · Full-Stack
+  Editor  → VS Code (obviously)
+  Status  → Always shipping
+───────────────────────────────
 ```
+
+<div align="left">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utkarshbahuguna666/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/utkarshbahuguna)
+[![Codeforces](https://img.shields.io/badge/Codeforces-%231F8ACB.svg?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/smoothoperander)
+[![CodeChef](https://img.shields.io/badge/CodeChef-%235B4638.svg?style=flat-square&logo=codechef&logoColor=white)](https://www.codechef.com/users/bit_crusader_4)
+[![Dev.to](https://img.shields.io/badge/dev.to-%230A0A0A.svg?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/utkarshbahuguna)
+[![Gmail](https://img.shields.io/badge/Gmail-%23EA4335.svg?style=flat-square&logo=gmail&logoColor=white)](mailto:utkarshbahuguna10@gmail.com)
+
+</div>
 
 <br clear="right"/>
 
 ---
 
-## 🚀 What I'm Actually Building
+## Current Status
 
-<table>
-<tr>
-<td>
-
-**PROCTOR.AI** — Technical interview platform for the AI-native engineering era.
-
-Candidates work inside real brownfield codebases with AI tools. The platform scores *how* they engineer with AI — problem decomposition, algorithmic reasoning, prompt precision — not whether they can regurgitate a sorting algorithm.
-
-- Built the entire product solo: IDE, eval engine, interviewer panel, admin dashboard, scorecard
-- Tech: Next.js 14 · Monaco Editor · Gemini API · BullMQ · Socket.IO · Supabase · Piston
-- Status: 🟢 Deployed — onboarding trial companies
-
-</td>
-</tr>
-</table>
+```javascript
+const utkarsh = {
+  learning:   ["System Design", "Distributed Systems", "compilers (don't ask why)"],
+  obsessedWith: "building things end-to-end, solo",
+  currentTab:  "probably something I told myself I'd read later",
+  sleepSchedule: "a suggestion, not a rule",
+  lookingFor:  "hard problems worth solving",
+  notLookingFor: ["tutorials", "tutorial hell", "more tutorials"],
+};
+```
 
 ---
 
-## ♟️ Play Chess With Me
-
-> Make a move by opening an Issue — a bot responds and updates the board automatically.
-
-<!-- BEGIN CHESS BOARD -->
-*Set up by forking [timburgan/timburgan](https://github.com/timburgan/timburgan), enabling the GitHub Actions workflow, and replacing this block with your live board state. Visitors play moves directly from your README via Issue links — one of the most impressive README tricks that exists.*
-<!-- END CHESS BOARD -->
-
----
-
-## 🎧 Now Playing on Spotify
+## Stack
 
 <div align="center">
 
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID&cover_image=true&theme=natemoo-re&show_offline=true&background_color=0d1117&interchange=false&bar_color=A78BFA&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID&redirect=true)
-
-*Go to [spotify-github-profile.kittinanx.com](https://spotify-github-profile.kittinanx.com), connect your Spotify, replace `YOUR_SPOTIFY_UID` above with the UID it gives you*
+<img src="https://skillicons.dev/icons?i=ts,py,java,cpp,go,js&theme=dark&perline=6" />
+<br/>
+<img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,fastapi,flask,tailwind&theme=dark&perline=6" />
+<br/>
+<img src="https://skillicons.dev/icons?i=supabase,mongodb,mysql,firebase,redis,gcp&theme=dark&perline=6" />
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,docker,figma,blender,postman&theme=dark&perline=6" />
 
 </div>
 
 ---
 
-## 🛠️ Stack
+## Stats
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=u7k4rs6&theme=tokyonight&hide_border=true&background=0d1117" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=u7k4rs6&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&bg_color=0d1117" width="38%"/>
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+</div>
 
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=u7k4rs6&bg_color=0d1117&color=A78BFA&line=A78BFA&point=ffffff&area=true&area_color=A78BFA&hide_border=true" width="95%"/>
 
 </div>
 
 ---
 
-## 📊 Stats
+## Contribution
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=u7k4rs6&theme=tokyonight&hide_border=true" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=u7k4rs6&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" width="38%"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=u7k4rs6&bg_color=1a1b27&color=A78BFA&line=A78BFA&point=ffffff&area=true&hide_border=true" width="95%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/u7k4rs6/u7k4rs6/blob/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/u7k4rs6/u7k4rs6/blob/output/github-contribution-grid-snake.svg"/>
+  <img alt="github-snake" src="https://github.com/u7k4rs6/u7k4rs6/blob/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
 
 </div>
 
 ---
 
-## 🐍 Contribution Snake
+## Trophies
 
 <div align="center">
 
-![snake](https://github.com/u7k4rs6/u7k4rs6/blob/output/github-contribution-grid-snake-dark.svg)
-
-*Enable via GitHub Actions — add the `Platane/snk@v3` workflow to your profile repo*
-
-</div>
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=u7k4rs6&theme=tokyonight&no-frame=true&margin-w=8&column=7)
-
-</div>
-
----
-
-## 📬 Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utkarshbahuguna666/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/utkarshbahuguna)
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/smoothoperander)
-[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/@utkarshbahuguna3)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:utkarshbahuguna10@gmail.com)
+<img src="https://github-profile-trophy.vercel.app/?username=u7k4rs6&theme=tokyonight&no-frame=true&margin-w=6&column=7" width="95%"/>
 
 </div>
 
@@ -155,8 +118,8 @@ Candidates work inside real brownfield codebases with AI tools. The platform sco
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0533,100:0a0a0a&height=100&section=footer" width="100%"/>
 
-[![Profile Views](https://visitcount.itsvg.in/api?id=u7k4rs6&icon=6&color=9)](https://visitcount.itsvg.in)
+[![Visits](https://visitcount.itsvg.in/api?id=u7k4rs6&icon=6&color=9)](https://visitcount.itsvg.in)
 
-*"Ship it. Then make it good."*
+*"Build first. Figure out the rest later."*
 
 </div>
