@@ -1,44 +1,162 @@
-<h1 align="center">Hi 👋, I'm Utkarsh Bahuguna</h1>
-<h3 align="center">Committed to clean code and bold ideas</h3>
+<div align="center">
 
-<div style="width: 100%; overflow: hidden;">
-  <img alt="Coding" width="400" src="https://i.gifer.com/46xR.gif" style="float: left; margin-right: 20px;">
-  <img alt="Coding" width="400" src="https://i.gifer.com/bJk.gif" style="float: right; margin-left: 20px;">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0a,50:1a0533,100:0d1117&height=200&section=header&text=Utkarsh%20Bahuguna&fontSize=60&fontColor=A78BFA&animation=fadeIn&fontAlignY=55&desc=Founder%20%C2%B7%20Engineer%20%C2%B7%20Builder&descSize=18&descAlignY=75&descColor=6B7280" width="100%"/>
+
 </div>
 
+<div align="center">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+PROCTOR.AI+%F0%9F%9A%80;Founder+%26+Sole+Engineer+%E2%80%94+shipped+to+production;CS+%40+BITS+Pilani+%C3%97+Scaler+School+of+Tech;I+build+things+that+actually+ship.)](https://git.io/typing-svg)
 
-
-
-
-
-# 💫 About Me:
-I am currently studying at Scaler School of Technology 🎓 while pursuing a degree in Computer Science from BITS Pilani 🏫. My journey in tech has been driven by an unyielding passion to explore the endless possibilities in the world of Computer Science 🌐. I thrive on solving complex problems and creating impactful solutions through technology 💡.
-
-With expertise in programming languages like Python 🐍, Java ☕, C++ 💻, and Go 🚀, I’m able to adapt and excel in diverse coding environments. My hands-on experience extends to web development with frameworks such as Flask 🖥️ and Tailwind 🌟, and database management using MongoDB 📊. Whether it’s building scalable applications or optimizing user interfaces, I’m always aiming to create seamless, intuitive experiences for users.
-
-In addition to coding, I’m constantly working to enhance my skills in data structures, algorithms, and system design 🔧. I believe in the power of continuous learning 📚 and strive to stay ahead in this ever-evolving tech landscape. My ultimate goal is to combine my technical expertise with innovative thinking to contribute to cutting-edge advancements in the tech world 🌍.
-
-<br><br>📫 How to reach me utkarshbahuguna10@gmail.com
-
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=u7k4rs6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=u7k4rs6&theme=tokyonight&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=u7k4rs6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=u7k4rs6&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4)
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=u7k4rs6&icon=6&color=10)](https://visitcount.itsvg.in)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/utkarshbahuguna666/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/utkarshbahuguna666/" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/bit_crusader_4" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="bit_crusader_4" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/@utkarshbahuguna3" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@utkarshbahuguna3" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/smoothoperander" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="smoothoperander" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/utkarshbahuguna" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="utkarshbahuguna" height="30" width="40" /></a>
-</p>
+<img align="right" width="38%" src="https://github-readme-stats.vercel.app/api?username=u7k4rs6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github"/>
+
+### `$ whoami`
+
+```bash
+Name     : Utkarsh Bahuguna
+Role     : Founder-Engineer
+Building : PROCTOR.AI
+School   : BITS Pilani (CS) × Scaler School of Tech
+Stack    : TypeScript · Python · Go · Next.js · Supabase
+Status   : 🟢 Actively shipping
+Contact  : utkarshbahuguna10@gmail.com
+```
+
+<br clear="right"/>
+
+---
+
+## 🚀 What I'm Actually Building
+
+<table>
+<tr>
+<td>
+
+**PROCTOR.AI** — Technical interview platform for the AI-native engineering era.
+
+Candidates work inside real brownfield codebases with AI tools. The platform scores *how* they engineer with AI — problem decomposition, algorithmic reasoning, prompt precision — not whether they can regurgitate a sorting algorithm.
+
+- Built the entire product solo: IDE, eval engine, interviewer panel, admin dashboard, scorecard
+- Tech: Next.js 14 · Monaco Editor · Gemini API · BullMQ · Socket.IO · Supabase · Piston
+- Status: 🟢 Deployed — onboarding trial companies
+
+</td>
+</tr>
+</table>
+
+---
+
+## ♟️ Play Chess With Me
+
+> Make a move by opening an Issue — a bot responds and updates the board automatically.
+
+<!-- BEGIN CHESS BOARD -->
+*Set up by forking [timburgan/timburgan](https://github.com/timburgan/timburgan), enabling the GitHub Actions workflow, and replacing this block with your live board state. Visitors play moves directly from your README via Issue links — one of the most impressive README tricks that exists.*
+<!-- END CHESS BOARD -->
+
+---
+
+## 🎧 Now Playing on Spotify
+
+<div align="center">
+
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID&cover_image=true&theme=natemoo-re&show_offline=true&background_color=0d1117&interchange=false&bar_color=A78BFA&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID&redirect=true)
+
+*Go to [spotify-github-profile.kittinanx.com](https://spotify-github-profile.kittinanx.com), connect your Spotify, replace `YOUR_SPOTIFY_UID` above with the UID it gives you*
+
+</div>
+
+---
+
+## 🛠️ Stack
+
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+
+</div>
+
+---
+
+## 📊 Stats
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=u7k4rs6&theme=tokyonight&hide_border=true" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=u7k4rs6&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" width="38%"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=u7k4rs6&bg_color=1a1b27&color=A78BFA&line=A78BFA&point=ffffff&area=true&hide_border=true" width="95%"/>
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+![snake](https://github.com/u7k4rs6/u7k4rs6/blob/output/github-contribution-grid-snake-dark.svg)
+
+*Enable via GitHub Actions — add the `Platane/snk@v3` workflow to your profile repo*
+
+</div>
+
+---
+
+## 🏆 Trophies
+
+<div align="center">
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=u7k4rs6&theme=tokyonight&no-frame=true&margin-w=8&column=7)
+
+</div>
+
+---
+
+## 📬 Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utkarshbahuguna666/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/utkarshbahuguna)
+[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/smoothoperander)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/@utkarshbahuguna3)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:utkarshbahuguna10@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0533,100:0a0a0a&height=100&section=footer" width="100%"/>
+
+[![Profile Views](https://visitcount.itsvg.in/api?id=u7k4rs6&icon=6&color=9)](https://visitcount.itsvg.in)
+
+*"Ship it. Then make it good."*
+
+</div>
