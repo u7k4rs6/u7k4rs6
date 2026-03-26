@@ -25,18 +25,6 @@ $ whoami
   Editor  → VS Code (obviously)
   Status  → Always shipping
 ───────────────────────────────
-```
-
-<div align="left">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utkarshbahuguna666/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/utkarshbahuguna)
-[![Codeforces](https://img.shields.io/badge/Codeforces-%231F8ACB.svg?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/smoothoperander)
-[![CodeChef](https://img.shields.io/badge/CodeChef-%235B4638.svg?style=flat-square&logo=codechef&logoColor=white)](https://www.codechef.com/users/bit_crusader_4)
-[![Dev.to](https://img.shields.io/badge/dev.to-%230A0A0A.svg?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/utkarshbahuguna)
-[![Gmail](https://img.shields.io/badge/Gmail-%23EA4335.svg?style=flat-square&logo=gmail&logoColor=white)](mailto:utkarshbahuguna10@gmail.com)
-
-</div>
 
 <br clear="right"/>
 
