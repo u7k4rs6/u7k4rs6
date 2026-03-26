@@ -90,36 +90,5 @@ const utkarsh = {
 
 ---
 
-## Contribution
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/u7k4rs6/u7k4rs6/blob/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/u7k4rs6/u7k4rs6/blob/output/github-contribution-grid-snake.svg"/>
-  <img alt="github-snake" src="https://github.com/u7k4rs6/u7k4rs6/blob/output/github-contribution-grid-snake-dark.svg"/>
-</picture>
-
-</div>
-
----
-
-## Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=u7k4rs6&theme=tokyonight&no-frame=true&margin-w=6&column=7" width="95%"/>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0533,100:0a0a0a&height=100&section=footer" width="100%"/>
-
-[![Visits](https://visitcount.itsvg.in/api?id=u7k4rs6&icon=6&color=9)](https://visitcount.itsvg.in)
-
-*"Build first. Figure out the rest later."*
 
 </div>
