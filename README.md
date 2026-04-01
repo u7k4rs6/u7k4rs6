@@ -11,8 +11,7 @@
 </div>
 
 ---
-
-<img align="right" width="42%" src="https://github-readme-stats.vercel.app/api?username=u7k4rs6&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&bg_color=0d1117"/>
+<img align="right" width="42%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=u7k4rs6&theme=tokyonight"/>
 
 ```bash
 $ whoami
