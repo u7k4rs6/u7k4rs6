@@ -40,6 +40,3 @@ I build AI agents, reinforcement learning environments, and security tooling.
 **Infra**&#160;&#160;`Docker` `Postgres` `Redis` `GCP`
 **Focus**&#160;&#160;`LLM agents` `reinforcement learning` `observability` `appsec`
 
-<p align="center">
-<sub>This header is a single hand-written animated SVG.</sub>
-</p>
