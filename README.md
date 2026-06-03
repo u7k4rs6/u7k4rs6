@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/incident-console.svg" alt="Utkarsh Bahuguna" width="100%"/>
+<img src="incident-console.svg" alt="Utkarsh Bahuguna" width="100%"/>
 
 </div>
 
