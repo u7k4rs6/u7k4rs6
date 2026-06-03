@@ -1,0 +1,254 @@
+<svg viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, monospace">
+  <title>Utkarsh Bahuguna - live incident response console</title>
+  <desc>An AI agent monitors a service mesh, detects a failure on svc-pay, and heals it. Telemetry spikes and recovers on a loop.</desc>
+
+  <defs>
+    <!-- background dot grid -->
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" opacity="0.022"/>
+    </pattern>
+    <!-- purple glow behind the mesh -->
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.30"/>
+      <stop offset="55%" stop-color="#7c5cff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow" x="-30%" y="-40%" width="160%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- canvas -->
+  <rect x="0" y="0" width="1000" height="360" rx="16" fill="#0a0c10"/>
+  <rect x="0" y="0" width="1000" height="360" rx="16" fill="url(#grid)"/>
+  <ellipse cx="760" cy="168" rx="260" ry="200" fill="url(#bgGlow)"/>
+  <!-- console frame -->
+  <rect x="8" y="8" width="984" height="344" rx="13" fill="none" stroke="#20242e" stroke-width="1"/>
+  <rect x="14" y="14" width="972" height="2.2" rx="1.1" fill="url(#topAccent)"/>
+
+  <!-- moving scanline -->
+  <rect x="8" y="0" width="984" height="2" fill="#A78BFA" opacity="0.05">
+    <animateTransform attributeName="transform" type="translate" values="0,14;0,350;0,14" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- header status (top right) -->
+  <text x="946" y="34" text-anchor="end" font-size="11" letter-spacing="1.5" fill="#5b6473">incident-response.sys</text>
+  <circle cx="962" cy="30" r="3.6" fill="#34d399">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ===================== IDENTITY ===================== -->
+  <g>
+    <text x="42" y="58" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="33" font-weight="800" letter-spacing="1.5" fill="#A78BFA" filter="url(#textGlow)">UTKARSH BAHUGUNA</text>
+    <text x="44" y="83" font-size="13" fill="#8b93a7">Founder @ Vionex AI</text>
+    <text x="44" y="103" font-size="12" fill="#5b6473">AI agents&#160;&#183;&#160;reinforcement learning&#160;&#183;&#160;cybersecurity&#160;&#183;&#160;systems</text>
+  </g>
+
+  <!-- ===================== TELEMETRY PANEL ===================== -->
+  <g>
+    <rect x="42" y="130" width="270" height="160" rx="10" fill="#0d1016" stroke="#20242e" stroke-width="1"/>
+    <text x="58" y="152" font-size="10.5" letter-spacing="1.5" fill="#5b6473">// LIVE TELEMETRY</text>
+
+    <!-- p99 latency -->
+    <text x="58" y="180" font-size="12" fill="#8b93a7">p99 latency</text>
+    <text x="296" y="180" text-anchor="end" font-size="12.5" font-weight="700" fill="#c4b5fd">42 ms
+      <animate attributeName="opacity" values="1;0;1;1" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
+    <text x="296" y="180" text-anchor="end" font-size="12.5" font-weight="700" fill="#f87171" opacity="0">318 ms
+      <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
+    <rect x="58" y="186" width="80" height="5" rx="2.5" fill="#262c3a"/>
+    <rect x="58" y="186" width="70" height="5" rx="2.5" fill="#A78BFA">
+      <animate attributeName="width" values="70;160;70;70" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="fill" values="#A78BFA;#f87171;#A78BFA;#A78BFA" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+
+    <!-- error rate -->
+    <text x="58" y="220" font-size="12" fill="#8b93a7">error rate</text>
+    <text x="296" y="220" text-anchor="end" font-size="12.5" font-weight="700" fill="#c4b5fd">0.02 %
+      <animate attributeName="opacity" values="1;0;1;1" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
+    <text x="296" y="220" text-anchor="end" font-size="12.5" font-weight="700" fill="#f87171" opacity="0">7.41 %
+      <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
+    <rect x="58" y="226" width="60" height="5" rx="2.5" fill="#262c3a"/>
+    <rect x="58" y="226" width="48" height="5" rx="2.5" fill="#A78BFA">
+      <animate attributeName="width" values="48;150;48;48" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="fill" values="#A78BFA;#f87171;#A78BFA;#A78BFA" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+
+    <!-- throughput -->
+    <text x="58" y="260" font-size="12" fill="#8b93a7">throughput</text>
+    <text x="296" y="260" text-anchor="end" font-size="12.5" font-weight="700" fill="#c4b5fd">12.4k rps
+      <animate attributeName="opacity" values="1;0;1;1" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
+    <text x="296" y="260" text-anchor="end" font-size="12.5" font-weight="700" fill="#f87171" opacity="0">3.1k rps
+      <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </text>
+    <rect x="58" y="266" width="120" height="5" rx="2.5" fill="#262c3a"/>
+    <rect x="58" y="266" width="120" height="5" rx="2.5" fill="#A78BFA">
+      <animate attributeName="width" values="120;40;120;120" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="fill" values="#A78BFA;#f87171;#A78BFA;#A78BFA" keyTimes="0;0.25;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+  </g>
+
+  <!-- ===================== LATENCY GRAPH ===================== -->
+  <g>
+    <rect x="326" y="130" width="250" height="160" rx="10" fill="#0d1016" stroke="#20242e" stroke-width="1"/>
+    <text x="342" y="152" font-size="10.5" letter-spacing="1.5" fill="#5b6473">// p99 LATENCY</text>
+    <line x1="342" y1="258" x2="558" y2="258" stroke="#20242e" stroke-width="1" stroke-dasharray="3 4"/>
+    <line x1="342" y1="218" x2="558" y2="218" stroke="#20242e" stroke-width="1" stroke-dasharray="3 4" opacity="0.6"/>
+    <polyline fill="none" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+      points="342,252 360,250 378,254 396,251 414,253 432,250 450,254 468,250 486,253 504,251 522,254 540,250 558,253">
+      <animate attributeName="points" dur="12s" repeatCount="indefinite" calcMode="linear"
+        keyTimes="0;0.25;0.31;0.78;0.85;1"
+        values="342,252 360,250 378,254 396,251 414,253 432,250 450,254 468,250 486,253 504,251 522,254 540,250 558,253;
+                342,252 360,250 378,254 396,251 414,253 432,250 450,254 468,250 486,253 504,251 522,254 540,250 558,253;
+                342,252 360,251 378,254 396,247 414,222 432,196 450,176 468,205 486,238 504,250 522,253 540,251 558,254;
+                342,252 360,251 378,254 396,247 414,222 432,196 450,176 468,205 486,238 504,250 522,253 540,251 558,254;
+                342,252 360,250 378,254 396,251 414,253 432,250 450,254 468,250 486,253 504,251 522,254 540,250 558,253;
+                342,252 360,250 378,254 396,251 414,253 432,250 450,254 468,250 486,253 504,251 522,254 540,250 558,253"/>
+      <animate attributeName="stroke" values="#A78BFA;#f87171;#f87171;#A78BFA" keyTimes="0;0.30;0.82;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </polyline>
+  </g>
+
+  <!-- ===================== SERVICE MESH ===================== -->
+  <g>
+    <!-- edges -->
+    <g stroke="#4c4368" stroke-width="1.2" opacity="0.5">
+      <line x1="760" y1="168" x2="760" y2="48"/>
+      <line x1="760" y1="168" x2="874" y2="131"/>
+      <line x1="760" y1="168" x2="690" y2="265"/>
+      <line x1="760" y1="168" x2="646" y2="131"/>
+      <line x1="874" y1="131" x2="830" y2="265"/>
+      <line x1="646" y1="131" x2="690" y2="265"/>
+    </g>
+    <!-- the affected edge (agent -> svc-pay), animated -->
+    <line x1="760" y1="168" x2="830" y2="265" stroke="#4c4368" stroke-width="1.2">
+      <animate attributeName="stroke" values="#4c4368;#f87171;#c4b5fd;#4c4368;#4c4368" keyTimes="0;0.25;0.625;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="stroke-width" values="1.2;1.9;2.6;1.2;1.2" keyTimes="0;0.25;0.625;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      <animate attributeName="opacity" values="0.5;0.85;1;0.5;0.5" keyTimes="0;0.25;0.625;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+    </line>
+
+    <!-- ambient traffic pulses -->
+    <g fill="#c4b5fd">
+      <circle r="2.4" opacity="0.85"><animateMotion dur="2.6s" repeatCount="indefinite" begin="-0.3s" path="M760,168 L760,48"/></circle>
+      <circle r="2.4" opacity="0.85"><animateMotion dur="3.0s" repeatCount="indefinite" begin="-1.1s" path="M760,168 L874,131"/></circle>
+      <circle r="2.4" opacity="0.85"><animateMotion dur="2.4s" repeatCount="indefinite" begin="-0.7s" path="M760,168 L690,265"/></circle>
+      <circle r="2.4" opacity="0.85"><animateMotion dur="2.8s" repeatCount="indefinite" begin="-1.6s" path="M760,168 L646,131"/></circle>
+    </g>
+
+    <!-- alert ring on svc-pay (gated to fault window) -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.25;0.55;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      <circle cx="830" cy="265" r="21" fill="none" stroke="#f87171" stroke-width="2">
+        <animate attributeName="r" values="20;50" dur="1.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.9;0" dur="1.3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- agent detection ring (gated) -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.50;0.72;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      <circle cx="760" cy="168" r="40" fill="none" stroke="#A78BFA" stroke-width="2">
+        <animate attributeName="r" values="32;78" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.75;0" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- service nodes -->
+    <g>
+      <!-- svc-api -->
+      <circle cx="760" cy="48" r="21" fill="#11151d" stroke="#A78BFA" stroke-width="1.6" filter="url(#soft)"/>
+      <circle cx="760" cy="48" r="4" fill="#A78BFA"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="760" y="86" text-anchor="middle" font-size="10.5" fill="#7c8598">svc-api</text>
+      <!-- svc-auth -->
+      <circle cx="874" cy="131" r="21" fill="#11151d" stroke="#A78BFA" stroke-width="1.6" filter="url(#soft)"/>
+      <circle cx="874" cy="131" r="4" fill="#A78BFA"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.7s" repeatCount="indefinite"/></circle>
+      <text x="874" y="161" text-anchor="middle" font-size="10.5" fill="#7c8598">svc-auth</text>
+      <!-- svc-db -->
+      <circle cx="690" cy="265" r="21" fill="#11151d" stroke="#A78BFA" stroke-width="1.6" filter="url(#soft)"/>
+      <circle cx="690" cy="265" r="4" fill="#A78BFA"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/></circle>
+      <text x="690" y="298" text-anchor="middle" font-size="10.5" fill="#7c8598">svc-db</text>
+      <!-- svc-cache -->
+      <circle cx="646" cy="131" r="21" fill="#11151d" stroke="#A78BFA" stroke-width="1.6" filter="url(#soft)"/>
+      <circle cx="646" cy="131" r="4" fill="#A78BFA"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/></circle>
+      <text x="646" y="161" text-anchor="middle" font-size="10.5" fill="#7c8598">svc-cache</text>
+
+      <!-- svc-pay (the one that fails) -->
+      <g>
+        <animate attributeName="opacity" values="1;1;0.35;1;0.4;1;1" keyTimes="0;0.25;0.27;0.29;0.31;0.33;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+        <circle cx="830" cy="265" r="21" fill="#11151d" stroke="#A78BFA" stroke-width="1.8" filter="url(#soft)">
+          <animate attributeName="stroke" values="#A78BFA;#f87171;#e9d5ff;#A78BFA;#A78BFA" keyTimes="0;0.25;0.80;0.88;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+        </circle>
+        <circle cx="830" cy="265" r="4" fill="#A78BFA">
+          <animate attributeName="fill" values="#A78BFA;#f87171;#e9d5ff;#A78BFA;#A78BFA" keyTimes="0;0.25;0.80;0.88;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+        </circle>
+      </g>
+      <text x="830" y="298" text-anchor="middle" font-size="10.5" fill="#7c8598">svc-pay</text>
+    </g>
+
+    <!-- remediation pulses (agent -> svc-pay) -->
+    <g fill="#e9d5ff" opacity="0">
+      <circle r="3.6"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.62;0.66;0.71;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+        <animateMotion dur="12s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.625;0.70;1" path="M760,168 L830,265"/></circle>
+      <circle r="3.6"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.66;0.70;0.75;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+        <animateMotion dur="12s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.66;0.735;1" path="M760,168 L830,265"/></circle>
+      <circle r="3.6"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.70;0.74;0.79;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+        <animateMotion dur="12s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.70;0.78;1" path="M760,168 L830,265"/></circle>
+    </g>
+
+    <!-- recovery check on svc-pay (gated) -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.80;0.93;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      <circle cx="830" cy="265" r="21" fill="none" stroke="#c4b5fd" stroke-width="2">
+        <animate attributeName="r" values="20;46" dur="1.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.85;0" dur="1.3s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M822,265 l5,6 l11,-13" fill="none" stroke="#e9d5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- AGENT core -->
+    <g>
+      <circle cx="760" cy="168" r="42" fill="none" stroke="#A78BFA" stroke-width="1" stroke-dasharray="3 6" opacity="0.55">
+        <animateTransform attributeName="transform" type="rotate" from="0 760 168" to="360 760 168" dur="20s" repeatCount="indefinite"/>
+      </circle>
+      <polygon points="790,168 775,194 745,194 730,168 745,142 775,142" fill="#120f1f" stroke="#A78BFA" stroke-width="1.8" filter="url(#soft)"/>
+      <circle cx="760" cy="168" r="9" fill="#A78BFA"><animate attributeName="opacity" values="0.55;1;0.55" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="760" y="227" text-anchor="middle" font-size="10.5" letter-spacing="1" fill="#A78BFA">agent</text>
+    </g>
+  </g>
+
+  <!-- ===================== LOG STRIP ===================== -->
+  <g>
+    <line x1="42" y1="312" x2="958" y2="312" stroke="#20242e" stroke-width="1"/>
+    <text x="42" y="338" font-size="12.5" fill="#6f5fb0">ub@incident-response &#10095;</text>
+    <g font-size="12.5">
+      <text x="232" y="338" fill="#8b93a7">monitoring 5 services&#160;&#183;&#160;all systems nominal
+        <animate attributeName="opacity" values="1;0;0;0;0" keyTimes="0;0.25;0.50;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      </text>
+      <text x="232" y="338" fill="#f87171" opacity="0">! anomaly&#160;&#183;&#160;svc-pay p99 318ms&#160;&#183;&#160;error rate 7.41%
+        <animate attributeName="opacity" values="0;1;0;0;0" keyTimes="0;0.25;0.50;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      </text>
+      <text x="232" y="338" fill="#c4b5fd" opacity="0">agent&#160;&#183;&#160;isolate svc-pay &#8594; reroute traffic &#8594; scale 3 to 6
+        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.25;0.50;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      </text>
+      <text x="232" y="338" fill="#a7f3d0" opacity="0">recovered&#160;&#183;&#160;svc-pay p99 42ms&#160;&#183;&#160;error rate 0.02% &#10003;
+        <animate attributeName="opacity" values="0;0;0;1;1" keyTimes="0;0.25;0.50;0.80;1" dur="12s" repeatCount="indefinite" calcMode="discrete"/>
+      </text>
+    </g>
+    <rect x="828" y="328" width="8" height="13" fill="#A78BFA">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
