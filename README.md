@@ -1,80 +1,47 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0a,50:1a0533,100:0d1117&height=200&section=header&text=Utkarsh%20Bahuguna&fontSize=60&fontColor=A78BFA&animation=fadeIn&fontAlignY=55&desc=Founder%20%C2%B7%20Engineer%20%C2%B7%20Builder&descSize=18&descAlignY=75&descColor=6B7280" width="100%"/>
+<img src="./assets/incident-console.svg" alt="Utkarsh Bahuguna" width="100%"/>
 
 </div>
 
-<div align="center">
+<p align="center">
+Second year CS at <b>BITS Pilani</b> &#215; <b>Scaler School of Technology</b>.<br/>
+I build AI agents, reinforcement learning environments, and security tooling. Founder of <b>Vionex AI</b>.
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=650&lines=CS+%40+BITS+Pilani+%C3%97+Scaler+School+of+Tech;TypeScript+%C2%B7+Python+%C2%B7+Go+%C2%B7+C%2B%2B+%C2%B7+Java;I+build+things+that+actually+ship.;404+chill+not+found.)](https://git.io/typing-svg)
-
-</div>
+<p align="center">
+<a href="LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=A78BFA" alt="LinkedIn"/></a>
+<a href="X_URL"><img src="https://img.shields.io/badge/X-161b22?style=flat-square&logo=x&logoColor=A78BFA" alt="X"/></a>
+<a href="mailto:EMAIL"><img src="https://img.shields.io/badge/Email-161b22?style=flat-square&logo=gmail&logoColor=A78BFA" alt="Email"/></a>
+<a href="PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=vercel&logoColor=A78BFA" alt="Portfolio"/></a>
+</p>
 
 ---
 
-```bash
-$ whoami
-───────────────────────────────
-  Utkarsh Bahuguna
-  BITS Pilani — B.E. Computer Science
-  Scaler School of Technology
-───────────────────────────────
-  Focus   → Systems · DSA · Full-Stack
-  Editor  → VS Code (obviously)
-  Status  → Always shipping
-───────────────────────────────
+### Building
 
-<br clear="right"/>
+| Project | What it is |
+| :-- | :-- |
+| **Yojaka** | Real-time AI debate platform. Multiple agents argue a motion under a Nyaya / Sanskrit reasoning frame. Next.js. |
+| **Incident Response OpenEnv** | RL-compatible agent environment that simulates microservice failures with a diagnostic action mechanic. Deployed on HuggingFace Spaces. |
+| **PROCTOR.AI** | B2B platform that scores AI-assisted engineering skill in technical interviews. Model-agnostic scoring core. |
+| **ThreatSim** | Cybersecurity attack / defense simulator. Tech Excellence Award. |
 
----
+### Selected work
 
-## Current Status
+- Top 100 solo finalist, **Meta &#215; PyTorch Hackathon** (built the incident-response RL environment end to end)
+- Open source contributor to **Jaeger** GenAI observability (jaegertracing/jaeger-ui #3887, LFX Mentorship)
+- Top 1% delegate, **Japan Youth Summit 2025** (UNESCO affiliated), pitched an AI cybersecurity education model
+- Delegate, **Harvard HPAIR 2026**
+- Runner-up, **Arweave Hackathon**
 
-```javascript
-const utkarsh = {
-  learning:   ["System Design", "Distributed Systems", "compilers (don't ask why)"],
-  obsessedWith: "building things end-to-end, solo",
-  currentTab:  "probably something I told myself I'd read later",
-  sleepSchedule: "a suggestion, not a rule",
-  lookingFor:  "hard problems worth solving",
-  notLookingFor: ["tutorials", "tutorial hell", "more tutorials"],
-};
-```
+### Stack
 
----
+**Languages**&#160;&#160;`TypeScript` `Python` `Go` `C++` `Java`
+**Frameworks**&#160;&#160;`Next.js` `React` `FastAPI` `Node`
+**Infra**&#160;&#160;`Docker` `Postgres` `Redis` `GCP`
+**Focus**&#160;&#160;`LLM agents` `reinforcement learning` `observability` `appsec`
 
-## Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=ts,py,java,cpp,go,js&theme=dark&perline=6" />
-<br/>
-<img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,fastapi,flask,tailwind&theme=dark&perline=6" />
-<br/>
-<img src="https://skillicons.dev/icons?i=supabase,mongodb,mysql,firebase,redis,gcp&theme=dark&perline=6" />
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,docker,figma,blender,postman&theme=dark&perline=6" />
-
-</div>
-
----
-
-## Stats
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=u7k4rs6&theme=tokyonight&hide_border=true&background=0d1117" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=u7k4rs6&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&bg_color=0d1117" width="38%"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=u7k4rs6&bg_color=0d1117&color=A78BFA&line=A78BFA&point=ffffff&area=true&area_color=A78BFA&hide_border=true" width="95%"/>
-
-</div>
-
----
-
-
-</div>
+<p align="center">
+<sub>The console above is a single hand-written animated SVG. No third-party widgets.</sub>
+</p>
