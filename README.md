@@ -9,12 +9,6 @@ Second year CS at <b>BITS Pilani</b> &#215; <b>Scaler School of Technology</b>.<
 I build AI agents, reinforcement learning environments, and security tooling.
 </p>
 
-<p align="center">
-<a href="https://www.linkedin.com/in/utkarshbahuguna666/"><img src="https://img.shields.io/badge/LinkedIn-111317?style=flat-square&logo=linkedin&logoColor=5ec9c0" alt="LinkedIn"/></a>
-<a href="mailto:utkarshbahuguna10@gmail.com"><img src="https://img.shields.io/badge/Email-111317?style=flat-square&logo=gmail&logoColor=5ec9c0" alt="Email"/></a>
-<a href="https://u7k4rs6.github.io/Utkarsh-CV/"><img src="https://img.shields.io/badge/Portfolio-111317?style=flat-square&logo=vercel&logoColor=5ec9c0" alt="Portfolio"/></a>
-</p>
-
 ---
 
 ### Building
