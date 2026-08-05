@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-Second year CS at <b>BITS Pilani</b> &#215; <b>Scaler School of Technology</b>.<br/>
+Final year CS at <b>BITS Pilani</b> &#215; <b>Scaler School of Technology</b>.<br/>
 I build AI agents, reinforcement learning environments, and security tooling.
 </p>
 
