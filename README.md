@@ -59,7 +59,6 @@ I build systems, then write the harnesses that try to break them.
 
 ### Elsewhere
 
-- Contract engineer at **Handshake**, authoring containerised evaluation environments that measure how well AI coding agents perform real engineering tasks. Each task ships as a Docker image plus a deterministic verifier, calibrated so a reference solution passes and a strong agent does not.
 - Global Top 20 finalist, **Meta &#215; PyTorch Hackathon** (the project became MIRR)
 - Delegate, **Harvard HPAIR 2026** &#160;&#183;&#160; Top 1% delegate, **Japan Youth Summit 2025** (UNESCO affiliated)
 
