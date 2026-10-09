@@ -4,40 +4,40 @@
 
 <p align="center">
 CS at <b>BITS Pilani</b>. I build systems, then build the harnesses that break them.<br/>
-<b>40 PRs merged upstream</b> across 12 repositories and 11 organisations, including GCC, Microsoft, PyTorch, NVIDIA, Hugging Face and CNCF.
+<b>40 PRs merged upstream</b> across 11 organisations, including GCC, Microsoft, PyTorch, NVIDIA, Hugging Face and CNCF.
 </p>
 
 ---
 
-- **I have a patch in GCC master.** [gccrs#4731](https://github.com/Rust-GCC/gccrs/pull/4731) went upstream in a maintainer's sync with my authorship kept.
-- **Thirteen of those merges fix defects I found and filed myself**, rather than picked up from a tracker: nine in Microsoft PyRIT, three in gccrs, one in Jaeger. One was a bug in my own already-merged code.
-- **I found nondeterminism in vLLM's deterministic mode** ([vllm#51187](https://github.com/vllm-project/vllm/issues/51187)) and built the trace that pinned it down: 16 server lifetimes, 1,120 comparisons, zero exceptions. Repeats match if and only if every token was reduced at the same RMSNorm block width.
-- **I'm the sole author of a COLM 2026 workshop paper.** [When Self-Consistency Backfires](https://arxiv.org/abs/2608.11403) shows majority voting *lowers* accuracy on 56–66% of GPQA Diamond problems. v2 corrects its own mechanism claim.
+- **A patch of mine is in GCC master.** [gccrs#4731](https://github.com/Rust-GCC/gccrs/pull/4731) went upstream in a maintainer's sync, authorship kept.
+- **13 of those 40 fix bugs I found and reported myself**, not tickets off a board. One was in my own merged code.
+- **I found nondeterminism in vLLM's deterministic mode** ([vllm#51187](https://github.com/vllm-project/vllm/issues/51187)): repeats match only if every token is reduced at the same RMSNorm block width.
+- **Sole author of a COLM 2026 workshop paper.** [When Self-Consistency Backfires](https://arxiv.org/abs/2608.11403): majority voting *lowers* accuracy on 56–66% of GPQA Diamond problems.
 
 ### Open source
 
 | Project | Merged |
 | :-- | :-- |
-| **[microsoft/PyRIT](https://github.com/microsoft/PyRIT/pulls?q=is%3Amerged+author%3Au7k4rs6)** | 13 PRs: the CodeAttack converter and technique, plus fixes to TAP/PAIR, multi-turn attacks, scale scorers, dataset loaders and seed filtering |
-| **[gccrs](https://github.com/Rust-GCC/gccrs/pulls?q=is%3Amerged+author%3Au7k4rs6)** · GCC Rust frontend | 8 PRs: match arm guards, left-to-right argument evaluation, a dead-code lint fix now in GCC master, rustc-compatible `E0259`/`E0260`, and a parser segfault I found and filed |
-| **[PyTorch](https://github.com/pytorch/torchtitan/pulls?q=is%3Amerged+author%3Au7k4rs6)** · executorch, torchtitan | 6 PRs: Inspector crashes on non-tensor and non-finite outputs, wandb tag splitting, a rollout filter that recorded everything when asked for nothing, scheduler range checks |
-| **[jaeger-ui](https://github.com/jaegertracing/jaeger-ui/pulls?q=is%3Amerged+author%3Au7k4rs6)** · CNCF | 4 PRs: GenAI span classification, image and audio rendering, RFC wire-format corrections |
-| **[NVIDIA/garak](https://github.com/NVIDIA/garak/pull/1842)** | Fixed Bedrock scans that failed for every Claude 4.x user |
-| **[huggingface/OpenEnv](https://github.com/huggingface/OpenEnv/pull/742)** | SSRF-safe URL parsing |
-| **[dottxt-ai/outlines](https://github.com/dottxt-ai/outlines/pull/1867)** | RFC 4291 IPv6 structured-output type |
-| **Also** | vllm-project/llm-compressor ×2, AI Village ×2, openkruise/agents, openyurtio/raven |
+| **[microsoft/PyRIT](https://github.com/microsoft/PyRIT/pulls?q=is%3Amerged+author%3Au7k4rs6)** | **13** · the CodeAttack converter, plus fixes to TAP/PAIR, scale scorers and dataset loaders |
+| **[gccrs](https://github.com/Rust-GCC/gccrs/pulls?q=is%3Amerged+author%3Au7k4rs6)** · GCC Rust frontend | **8** · match arm guards, left-to-right argument evaluation, a dead-code fix now in GCC master |
+| **[PyTorch](https://github.com/pytorch/torchtitan/pulls?q=is%3Amerged+author%3Au7k4rs6)** · executorch, torchtitan | **6** · Inspector crashes on non-finite output, wandb tag splitting, scheduler range checks |
+| **[jaeger-ui](https://github.com/jaegertracing/jaeger-ui/pulls?q=is%3Amerged+author%3Au7k4rs6)** · CNCF | **4** · GenAI span classification, media rendering, RFC wire-format corrections |
+| **[NVIDIA/garak](https://github.com/NVIDIA/garak/pull/1842)** | **1** · fixed Bedrock scans that failed for every Claude 4.x user |
+| **[huggingface/OpenEnv](https://github.com/huggingface/OpenEnv/pull/742)** | **1** · SSRF-safe URL parsing |
+| **[dottxt-ai/outlines](https://github.com/dottxt-ai/outlines/pull/1867)** | **1** · RFC 4291 IPv6 structured-output type |
+| **Also** | llm-compressor ×2, AI Village ×2, openkruise/agents, openyurtio/raven |
 
 ### Building
 
 | | |
 | :-- | :-- |
-| **[Blink](https://github.com/u7k4rs6/Blink)** | Tap an open source app and get your own running copy in about five seconds. It deletes itself ten minutes later and tells you what it cost. [Live](https://blink.utkarshbahuguna.me) |
-| **[Lockstep](https://github.com/u7k4rs6/LockStep)** | An LLM inference engine plus a certifier that checks output stays bit-identical however requests are batched, preempted or evicted. Triton kernels, paged KV. |
-| **[thrice](https://github.com/u7k4rs6/thrice)** | Decides whether a reported bug is still real: forks a pinned snapshot, runs the steps three times in parallel browsers, reads the verdict off backend state. Precision 0.80, recall 0.80. Every attempt published, including the two it got wrong. |
-| **[Shadowbook](https://github.com/u7k4rs6/Shadowbook)** | A limit order book in Rust. 416ns p50 insert, 100M fuzzed ops against an oracle with zero divergences, and zero hot-path allocation enforced by an allocator. |
-| **[Starling](https://github.com/u7k4rs6/Starling)** | A collaborative editor on a Fugue CRDT. 60,000 deletions encode to 15 bytes. Published as `starling-crdt`. [Demo](https://u7k4rs6.github.io/Starling/) |
-| **[CAIRN](https://github.com/u7k4rs6/CAIRN)** | A Git platform in Java on its own VCS engine. Real `git` clones, pushes and fetches against it. |
-| **[Flint](https://github.com/u7k4rs6/Flint)** | An x86-64 kernel in Rust, with ring 3 isolation proven by a breakout harness. |
+| **[Blink](https://github.com/u7k4rs6/Blink)** | Your own copy of an open source app, running in five seconds. Gone in ten minutes. [Live](https://blink.utkarshbahuguna.me) |
+| **[thrice](https://github.com/u7k4rs6/thrice)** | Reproduces a reported bug three times in parallel browsers. Precision 0.80, recall 0.80, every attempt published including the two it got wrong. |
+| **[Lockstep](https://github.com/u7k4rs6/LockStep)** | An inference engine and a certifier that checks output stays bit-identical however requests are batched. |
+| **[Shadowbook](https://github.com/u7k4rs6/Shadowbook)** | A limit order book in Rust. 416ns p50 insert, 100M fuzzed ops against an oracle, zero divergences. |
+| **[Starling](https://github.com/u7k4rs6/Starling)** | A collaborative editor on a Fugue CRDT. 60,000 deletions encode to 15 bytes. [Demo](https://u7k4rs6.github.io/Starling/) |
+| **[CAIRN](https://github.com/u7k4rs6/CAIRN)** | A Git platform in Java on its own VCS engine. Real `git` clones and pushes against it. |
+| **[Flint](https://github.com/u7k4rs6/Flint)** | An x86-64 kernel in Rust. Ring 3 isolation proven by a breakout harness. |
 | **[MIRR](https://github.com/u7k4rs6/MIRR)** | An incident-response environment for agents. Global top 20 at the Meta × PyTorch Hackathon. [Space](https://huggingface.co/spaces/u7k4rs6/Metafinal) |
 
 I publish what the measurements say. When all-pairs comparison showed half of a Lockstep finding was an artifact, the retraction went next to the result.
