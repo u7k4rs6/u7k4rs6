@@ -4,13 +4,13 @@
 
 <p align="center">
 CS at <b>BITS Pilani</b>. I build systems, then build the harnesses that break them.<br/>
-<b>64 PRs merged upstream</b> across 11 organisations, including GCC, Microsoft, PyTorch, NVIDIA, Hugging Face and CNCF.
+<b>68 PRs merged upstream</b> across 11 organisations, including GCC, Microsoft, PyTorch, NVIDIA, Hugging Face and CNCF.
 </p>
 
 ---
 
 - **A patch of mine is in GCC master.** [gccrs#4731](https://github.com/Rust-GCC/gccrs/pull/4731) went upstream in a maintainer's sync, authorship kept.
-- **35 of those 64 fix bugs I found and reported myself**, not tickets off a board. One was in my own merged code.
+- **38 of those 68 fix bugs I found and reported myself**, not tickets off a board. One was in my own merged code.
 - **I found nondeterminism in vLLM's deterministic mode** ([vllm#51187](https://github.com/vllm-project/vllm/issues/51187)): repeats match only if every token is reduced at the same RMSNorm block width.
 - **Sole author of a COLM 2026 workshop paper.** [When Self-Consistency Backfires](https://arxiv.org/abs/2608.11403): majority voting *lowers* accuracy on 56–66% of GPQA Diamond problems.
 
@@ -18,8 +18,8 @@ CS at <b>BITS Pilani</b>. I build systems, then build the harnesses that break t
 
 | Project | Merged |
 | :-- | :-- |
-| **[microsoft/PyRIT](https://github.com/microsoft/PyRIT/pulls?q=is%3Amerged+author%3Au7k4rs6)** | **34** · the CodeAttack converter, plus fixes to TAP/PAIR, scale scorers and dataset loaders |
-| **[gccrs](https://github.com/Rust-GCC/gccrs/pulls?q=is%3Amerged+author%3Au7k4rs6)** · GCC Rust frontend | **9** · match arm guards, left-to-right argument evaluation, a dead-code fix now in GCC master |
+| **[microsoft/PyRIT](https://github.com/microsoft/PyRIT/pulls?q=is%3Amerged+author%3Au7k4rs6)** | **36** · the CodeAttack converter, plus fixes to TAP/PAIR, scale scorers and dataset loaders |
+| **[gccrs](https://github.com/Rust-GCC/gccrs/pulls?q=is%3Amerged+author%3Au7k4rs6)** · GCC Rust frontend | **11** · match arm guards, left-to-right argument evaluation, a dead-code fix now in GCC master |
 | **[PyTorch](https://github.com/pytorch/torchtitan/pulls?q=is%3Amerged+author%3Au7k4rs6)** · executorch, torchtitan | **8** · Inspector crashes on non-finite output, wandb tag splitting, scheduler range checks |
 | **[jaeger-ui](https://github.com/jaegertracing/jaeger-ui/pulls?q=is%3Amerged+author%3Au7k4rs6)** · CNCF | **4** · GenAI span classification, media rendering, RFC wire-format corrections |
 | **[NVIDIA/garak](https://github.com/NVIDIA/garak/pull/1842)** | **1** · fixed Bedrock scans that failed for every Claude 4.x user |
