@@ -34,7 +34,7 @@ CS at <b>BITS Pilani</b>. I work on AI infrastructure and spend most of my time 
 | :-- | :-- |
 | **[Lockstep](https://github.com/u7k4rs6/LockStep)** | Verifies an inference engine returns the same tokens whatever else was batched. Caught vLLM 0.26.0 returning different logprobs for byte-identical requests ([vllm#51187](https://github.com/vllm-project/vllm/issues/51187)). |
 | **[MIRR](https://github.com/u7k4rs6/MIRR)** | LLM agents diagnose a hidden fault across five noisy microservices under partial observability. Built for the Meta x PyTorch hackathon. |
-| **[Umbra](https://github.com/u7k4rs6/Umbra)** | Finds the code an AI agent's change affects but the agent never looked at, and renders it as an eclipse map. |
+| **[Alibi](https://github.com/u7k4rs6/Alibi)** | A reward-hacking experiment that produced no measurement, and the forensic record of the six faults that would each have faked one. |
 | **[Shadowbook](https://github.com/u7k4rs6/Shadowbook)** | A limit order book in Rust. 416ns p50 insert, 100M fuzzed ops against an oracle, zero divergences. |
 | **[Flint](https://github.com/u7k4rs6/Flint)** | An x86-64 kernel in Rust. Ring 3 isolation proven by a breakout harness. |
 
