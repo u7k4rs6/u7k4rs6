@@ -1,10 +1,10 @@
 <div align="center">
-<img src="profile.svg" alt="Utkarsh Bahuguna" width="100%"/>
+<img src="profile-card.svg" alt="Utkarsh Bahuguna, AI systems and adversarial testing" width="100%"/>
 </div>
 
 <p align="center">
-CS at <b>BITS Pilani</b>. I build systems, then build the harnesses that break them.<br/>
-<b>74 PRs merged upstream</b> across 12 organisations, including GCC, Microsoft, PyTorch, NVIDIA, Hugging Face and CNCF.
+CS at <b>BITS Pilani</b>. I work on AI infrastructure and spend most of my time trying to break it.<br/>
+<b>74 PRs merged upstream</b>, 56 of them AI work, across 12 organisations including Microsoft, PyTorch, NVIDIA, Hugging Face and CNCF.
 </p>
 
 ---
