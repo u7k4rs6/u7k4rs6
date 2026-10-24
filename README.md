@@ -32,13 +32,13 @@ CS at <b>BITS Pilani</b>. I work on AI infrastructure and spend most of my time 
 
 | | |
 | :-- | :-- |
-| **[thrice](https://github.com/u7k4rs6/thrice)** | Reproduces a reported bug three times in parallel browsers. Precision 0.80, recall 0.80, every attempt published including the two it got wrong. |
-| **[Lockstep](https://github.com/u7k4rs6/LockStep)** | An inference engine and a certifier that checks output stays bit-identical however requests are batched. |
+| **[Lockstep](https://github.com/u7k4rs6/LockStep)** | Verifies an inference engine returns the same tokens whatever else was batched. Caught vLLM 0.26.0 returning different logprobs for byte-identical requests ([vllm#51187](https://github.com/vllm-project/vllm/issues/51187)). |
+| **[MIRR](https://github.com/u7k4rs6/MIRR)** | LLM agents diagnose a hidden fault across five noisy microservices under partial observability. Built for the Meta x PyTorch hackathon. |
+| **[Umbra](https://github.com/u7k4rs6/Umbra)** | Finds the code an AI agent's change affects but the agent never looked at, and renders it as an eclipse map. |
 | **[Shadowbook](https://github.com/u7k4rs6/Shadowbook)** | A limit order book in Rust. 416ns p50 insert, 100M fuzzed ops against an oracle, zero divergences. |
 | **[Flint](https://github.com/u7k4rs6/Flint)** | An x86-64 kernel in Rust. Ring 3 isolation proven by a breakout harness. |
-| **[Blink](https://github.com/u7k4rs6/Blink)** | Your own copy of an open source app, running in five seconds. Gone in ten minutes. [Live](https://blink.utkarshbahuguna.me) |
 
-More, including Starling, CAIRN and MIRR, at [utkarshbahuguna.me](https://utkarshbahuguna.me).
+More, including Thrice, Starling and CAIRN, at [utkarshbahuguna.me](https://utkarshbahuguna.me).
 
 I publish what the measurements say. When all-pairs comparison showed half of a Lockstep finding was an artifact, the retraction went next to the result.
 
