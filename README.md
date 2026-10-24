@@ -4,13 +4,13 @@
 
 <p align="center">
 CS at <b>BITS Pilani</b>. I build systems, then build the harnesses that break them.<br/>
-<b>68 PRs merged upstream</b> across 11 organisations, including GCC, Microsoft, PyTorch, NVIDIA, Hugging Face and CNCF.
+<b>74 PRs merged upstream</b> across 12 organisations, including GCC, Microsoft, PyTorch, NVIDIA, Hugging Face and CNCF.
 </p>
 
 ---
 
-- **A patch of mine is in GCC master.** [gccrs#4731](https://github.com/Rust-GCC/gccrs/pull/4731) went upstream in a maintainer's sync, authorship kept.
-- **38 of those 68 fix bugs I found and reported myself**, not tickets off a board. One was in my own merged code.
+- **Nine of my patches are in GCC master**, carried up from the gccrs tree by the project's syncs to gcc-patches with authorship kept.
+- **40 of those 74 fix bugs I found and reported myself**, not tickets off a board. One was in my own merged code.
 - **I found nondeterminism in vLLM's deterministic mode** ([vllm#51187](https://github.com/vllm-project/vllm/issues/51187)): repeats match only if every token is reduced at the same RMSNorm block width.
 - **Sole author of a COLM 2026 workshop paper.** [When Self-Consistency Backfires](https://arxiv.org/abs/2608.11403): majority voting *lowers* accuracy on 56–66% of GPQA Diamond problems.
 
@@ -18,13 +18,14 @@ CS at <b>BITS Pilani</b>. I build systems, then build the harnesses that break t
 
 | Project | Merged |
 | :-- | :-- |
-| **[microsoft/PyRIT](https://github.com/microsoft/PyRIT/pulls?q=is%3Amerged+author%3Au7k4rs6)** | **36** · the CodeAttack converter, plus fixes to TAP/PAIR, scale scorers and dataset loaders |
+| **[microsoft/PyRIT](https://github.com/microsoft/PyRIT/pulls?q=is%3Amerged+author%3Au7k4rs6)** | **37** · the CodeAttack converter, plus fixes to TAP/PAIR, scale scorers and dataset loaders |
 | **[gccrs](https://github.com/Rust-GCC/gccrs/pulls?q=is%3Amerged+author%3Au7k4rs6)** · GCC Rust frontend | **11** · match arm guards, left-to-right argument evaluation, a dead-code fix now in GCC master |
 | **[PyTorch](https://github.com/pytorch/torchtitan/pulls?q=is%3Amerged+author%3Au7k4rs6)** · executorch, torchtitan | **8** · Inspector crashes on non-finite output, wandb tag splitting, scheduler range checks |
 | **[jaeger-ui](https://github.com/jaegertracing/jaeger-ui/pulls?q=is%3Amerged+author%3Au7k4rs6)** · CNCF | **4** · GenAI span classification, media rendering, RFC wire-format corrections |
+| **[pwndbg](https://github.com/pwndbg/pwndbg/pulls?q=is%3Amerged+author%3Au7k4rs6)** · GDB exploit-dev frontend | **3** · a pointer-scan crash, its help text, negative-value searches |
+| **[OpenEnv](https://github.com/openenv/OpenEnv/pulls?q=is%3Amerged+author%3Au7k4rs6)** · was Hugging Face | **2** · SSRF-safe URL parsing, Space subdomain resolution |
+| **[meta-pytorch/tritonbench](https://github.com/meta-pytorch/tritonbench/pulls?q=is%3Amerged+author%3Au7k4rs6)** | **2** · child runs failing unless started one exact way, A/B metrics crash |
 | **[NVIDIA/garak](https://github.com/NVIDIA/garak/pull/1842)** | **1** · fixed Bedrock scans that failed for every Claude 4.x user |
-| **[huggingface/OpenEnv](https://github.com/huggingface/OpenEnv/pull/742)** | **1** · SSRF-safe URL parsing |
-| **[meta-pytorch/tritonbench](https://github.com/meta-pytorch/tritonbench/pull/1308)** | **1** · child benchmark runs failed unless started one exact way |
 | **Also** | llm-compressor ×2, AI Village ×2, openkruise/agents, openyurtio/raven |
 
 ### Building
