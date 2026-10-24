@@ -1,5 +1,5 @@
 <div align="center">
-<img src="profile-card.svg" alt="Utkarsh Bahuguna, AI systems and adversarial testing" width="100%"/>
+<img src="card.svg" alt="Utkarsh Bahuguna, AI systems and adversarial testing" width="100%"/>
 </div>
 
 <p align="center">
