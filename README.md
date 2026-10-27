@@ -9,6 +9,7 @@ CS at <b>BITS Pilani</b>. I work on AI infrastructure and spend most of my time 
 
 ---
 
+- **I unblocked libcore type checking in the GCC Rust frontend.** Type checking blew up exponentially on nested structs the moment a single auto trait existed, so libcore never finished ([gccrs#4971](https://github.com/Rust-GCC/gccrs/issues/4971)). I filed it, found the probe was re-adding every auto trait at every level of the field walk, and the fix is 73 lines ([gccrs#4972](https://github.com/Rust-GCC/gccrs/pull/4972)). `core` now gets past `num/f32.rs`.
 - **Nine of my patches are in GCC master**, carried up from the gccrs tree by the project's syncs to gcc-patches with authorship kept.
 - **44 of those 83 fix bugs I found and reported myself**, not tickets off a board. One was in my own merged code.
 - **I found nondeterminism in vLLM's deterministic mode** ([vllm#51187](https://github.com/vllm-project/vllm/issues/51187)): repeats match only if every token is reduced at the same RMSNorm block width.
