@@ -4,14 +4,14 @@
 
 <p align="center">
 CS at <b>BITS Pilani</b>. I work on AI infrastructure and spend most of my time trying to break it.<br/>
-<b>99 PRs merged upstream</b>, 66 of them AI work, across 12 organisations including Microsoft, PyTorch, NVIDIA, Hugging Face and CNCF.
+<b>100 PRs merged upstream</b>, 67 of them AI work, across 12 organisations including Microsoft, PyTorch, NVIDIA, Hugging Face and CNCF.
 </p>
 
 ---
 
 - **I unblocked libcore type checking in the GCC Rust frontend.** Type checking blew up exponentially on nested structs the moment a single auto trait existed, so libcore never finished ([gccrs#4971](https://github.com/Rust-GCC/gccrs/issues/4971)). I filed it, found the probe was re-adding every auto trait at every level of the field walk, and the fix is 73 lines ([gccrs#4972](https://github.com/Rust-GCC/gccrs/pull/4972)). `core` now gets past `num/f32.rs`.
 - **Eighteen of my patches are in GCC master**, copied into GCC's own source tree with my name on them, so they ship in the compiler itself.
-- **49 of those 99 fix bugs I found and reported myself**, not tickets off a board. One was in my own merged code.
+- **50 of those 100 fix bugs I found and reported myself**, not tickets off a board. One was in my own merged code.
 - **I found nondeterminism in vLLM's deterministic mode** ([vllm#51187](https://github.com/vllm-project/vllm/issues/51187)): repeats match only if every token is reduced at the same RMSNorm block width.
 - **Sole author of a COLM 2026 workshop paper.** [When Self-Consistency Backfires](https://arxiv.org/abs/2608.11403): majority voting *lowers* accuracy on 56–66% of GPQA Diamond problems.
 
@@ -19,7 +19,7 @@ CS at <b>BITS Pilani</b>. I work on AI infrastructure and spend most of my time 
 
 | Project | Merged |
 | :-- | :-- |
-| **[microsoft/PyRIT](https://github.com/microsoft/PyRIT/pulls?q=is%3Amerged+author%3Au7k4rs6)** | **45** · the CodeAttack converter, plus fixes to TAP/PAIR, scale scorers and dataset loaders |
+| **[microsoft/PyRIT](https://github.com/microsoft/PyRIT/pulls?q=is%3Amerged+author%3Au7k4rs6)** | **46** · the CodeAttack converter, plus fixes to TAP/PAIR, scale scorers and dataset loaders |
 | **[gccrs](https://github.com/Rust-GCC/gccrs/pulls?q=is%3Amerged+author%3Au7k4rs6)** · GCC Rust frontend | **24** · match arm guards, an exponential trait-probe fix that unblocked libcore type checking, nine patches now in GCC master |
 | **[PyTorch](https://github.com/pytorch/torchtitan/pulls?q=is%3Amerged+author%3Au7k4rs6)** · executorch, torchtitan | **10** · Inspector crashes on non-finite output, wandb tag splitting, scheduler range checks |
 | **[jaeger-ui](https://github.com/jaegertracing/jaeger-ui/pulls?q=is%3Amerged+author%3Au7k4rs6)** · CNCF | **4** · GenAI span classification, media rendering, RFC wire-format corrections |
